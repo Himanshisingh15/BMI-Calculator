@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hc_aboutbmi"
+        android:text="About BMI"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hc_bmi"
+        android:text="Body mass index (BMI) is a measure of your weight relative to your height and functions as a rough estimate of body fat. When you enter your height and weight into a BMI calculator, you’ll get a number. That number is one way to gauge if you have a healthy or unhealthy weight."/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmi_benefits"
+        android:text="Benefits of Body Mass Index Calculator"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmi_benefit"
+        android:text="The advantages of BMI are that it gives an estimate of whether your weight is commensurate with your height or not, and the BMI calculator helps you to get this ratio. The reasons why you should use the BMI calculator are as follows:" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmi_benefit1"
+        android:layout_marginTop="5dp"
+        android:text="1. This tool gives an estimate of whether you are underweight, average body weight, overweight or obese."/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmi_benefit2"
+        android:layout_marginTop="5dp"
+        android:text="2. It helps your doctor or nutritionist to understand the percentage of fat in your body. With this, based on BMI, the doctor will be able to chart your diet and exercise routine accordingly."/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmi_benefit3"
+        android:layout_marginTop="5dp"
+        android:text="3. This tool quickly calculates BMI and you get the results in a matter of seconds."/>
+
+    <ImageView
+        android:id="@+id/bmi_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bmi_image" />
+
+</LinearLayout>
